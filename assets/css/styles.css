@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap");
+:root {
+  --first-color: #274c5b;
+  --second-color: #7eb693;
+  --second-color-light: #eff6f1;
+  --third-color: #efd372;
+  --text-color: #525c60;
+  --card-color: #f9f8f8;
+  --body-font: "Roboto", "Open Sans", sans-serif;
+  --biggest-font-size: 70px;
+  --h2-font-size: 50px;
+  --h3-font-size: 40px;
+  --h4-font-size: 35px;
+  --quotes-font-size: 20px;
+  --text-font-size: 18px;
+  --mb-1: 20px;
+  --mb-2: 40px;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--body-font);
+  font-size: var(--text-font-size);
+  color: var(--text-color);
+}
+
+h1,
+h2,
+h3 {
+  color: var(--first-color);
+  line-height: 1.5;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.section-title {
+  font-size: var(--h2-font-size);
+  color: var(--first-color);
+  margin-bottom: var(--mb-1);
+  font-weight: 800;
+}
+
+.container {
+  max-width: 1280px;
+  padding: 0 40px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}/*# sourceMappingURL=styles.css.map */
